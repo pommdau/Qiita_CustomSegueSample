@@ -6,7 +6,7 @@
 import Cocoa
 
 class FirstViewController: NSViewController {
-
+    
     @IBOutlet var myLabel: NSTextField!
     var labelText = "First View"
     

@@ -727,7 +727,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="740"/>
+            <point key="canvasLocation" x="75" y="666"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="BSB-9W-5wr">
@@ -770,7 +770,7 @@
                 </viewController>
                 <customObject id="5RC-mr-bTy" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="764"/>
+            <point key="canvasLocation" x="582" y="689"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="omJ-QG-GHp">
@@ -813,10 +813,10 @@
                 </viewController>
                 <customObject id="Uhw-Qh-FeS" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="1148"/>
+            <point key="canvasLocation" x="582" y="1084"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8yY-yn-cvn"/>
+        <segue reference="Cny-Fc-sOT"/>
     </inferredMetricsTieBreakers>
 </document>
