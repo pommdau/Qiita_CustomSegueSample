@@ -12,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="SegueTest" id="1Xt-HY-uBw">
+                            <menuItem title="Qiita_CustomSegueSample" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="SegueTest" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Qiita_CustomSegueSample" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About SegueTest" id="5kV-Vb-QxS">
+                                        <menuItem title="About Qiita_CustomSegueSample" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -30,7 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide SegueTest" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Qiita_CustomSegueSample" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +48,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit SegueTest" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Qiita_CustomSegueSample" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -661,7 +661,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="SegueTest Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Qiita_CustomSegueSample Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -675,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SegueTest" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Qiita_CustomSegueSample" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -684,7 +684,7 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" customClass="MyWindowController" customModule="SegueTest" customModuleProvider="target" sceneMemberID="viewController">
+                <windowController id="B8D-0N-5wS" customClass="MyWindowController" customModule="Qiita_CustomSegueSample" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="Initial state" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -705,7 +705,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="SegueTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Qiita_CustomSegueSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -732,7 +732,7 @@
         <!--First View Controller-->
         <scene sceneID="BSB-9W-5wr">
             <objects>
-                <viewController id="Ym9-za-Wxa" customClass="FirstViewController" customModule="SegueTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ym9-za-Wxa" customClass="FirstViewController" customModule="Qiita_CustomSegueSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="72E-L5-KPm">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -765,7 +765,7 @@
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="zg9-ce-Ptc" id="mQv-bq-auO"/>
-                        <segue destination="rll-b2-CqL" kind="custom" identifier="FirstToSecond" customClass="SlideSegue" customModule="SegueTest" customModuleProvider="target" id="87d-Ru-th7"/>
+                        <segue destination="rll-b2-CqL" kind="custom" identifier="FirstToSecond" customClass="SlideSegue" customModule="Qiita_CustomSegueSample" customModuleProvider="target" id="87d-Ru-th7"/>
                     </connections>
                 </viewController>
                 <customObject id="5RC-mr-bTy" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -775,7 +775,7 @@
         <!--Second View Controller-->
         <scene sceneID="omJ-QG-GHp">
             <objects>
-                <viewController id="rll-b2-CqL" customClass="SecondViewController" customModule="SegueTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rll-b2-CqL" customClass="SecondViewController" customModule="Qiita_CustomSegueSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="jz0-sq-7Ds">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -808,7 +808,7 @@
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="ElT-K6-SLJ" id="KSq-FQ-frZ"/>
-                        <segue destination="Ym9-za-Wxa" kind="custom" identifier="SecondToFirst" customClass="SlideSegue" customModule="SegueTest" customModuleProvider="target" id="Cny-Fc-sOT"/>
+                        <segue destination="Ym9-za-Wxa" kind="custom" identifier="SecondToFirst" customClass="SlideSegue" customModule="Qiita_CustomSegueSample" customModuleProvider="target" id="Cny-Fc-sOT"/>
                     </connections>
                 </viewController>
                 <customObject id="Uhw-Qh-FeS" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

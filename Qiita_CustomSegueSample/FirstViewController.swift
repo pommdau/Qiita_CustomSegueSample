@@ -1,6 +1,6 @@
 //
 //  FirstViewController.swift
-//  SegueTest
+//  Qiita_CustomSegueSample
 //
 
 import Cocoa
